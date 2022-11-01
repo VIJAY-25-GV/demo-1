@@ -5,8 +5,8 @@ function Home(){
         <div id="home" className='container-fluid' >
             <div className='row'>
             <img src="./img/leaf.png" className="leaf1 col-lg-1 col-3"/> 
-            <img src="./img/leaf1.png" className="leaf2 col-lg-2 col-md-3 col-sm-4 col-5"/>
-            <div className="home-outter col-lg-5 col-md-4">
+            <img src="./img/leaf1.png" className="leaf2 col-lg-2 col-5"/>
+            <div className="home-outter col-lg-6">
                 <div className="home-inner">
                     <h1>
                         Flower <br/>Arrangements
@@ -21,7 +21,7 @@ function Home(){
                     </div>
                 </div>
             </div>
-            <img src="./img/homestill.png" class=" home-img col-lg-7 col-md-8"/>
+            <img src="./img/homestill.png" class=" home-img col-lg-6"/>
             <div class="homefooter">
                 <p className=''>3000+<br/><span>packages</span></p>
                 <p className=''>5000+<br/><span>bouquet sold</span></p>
