@@ -1,0 +1,74 @@
+
+input[type="text"],input[type="password"]{
+    font-weight: bold;
+    width:100%;
+    padding:0.7rem 0.6rem;
+    margin:0.5rem;
+    background-color:transparent;
+    border:1px solid rgb(182, 122, 97);
+    border-radius: 10px;
+
+}
+input[type="text"]:focus,input[type="password"]:focus{
+    outline:none;
+    background-color:rgba(245, 245, 245, 0.355);
+}
+
+.signoutter{
+    position:relative;
+    font-family:Arial, Helvetica, sans-serif;
+   padding: 1rem;
+   width: 400px;
+    z-index:99;
+   justify-items: center;
+   border:1px solid rgb(240, 214, 203);
+   border-radius:10px;
+   height:450px;
+   margin:5rem auto;
+   box-shadow: 5px 5px 10px rgb(235, 195, 177);
+}
+.btn{
+    color:white;
+    font-size:1.3rem;
+    background-color:rgba(218, 131, 90, 0.863);
+    padding:7px;
+    margin-top:9px;
+    cursor:pointer;
+    width:100%;
+    border-radius:50px;
+    /* margin:2rem; */
+}
+.btn:hover{
+    color:white;
+    background-color:rgb(218, 130, 90);
+}
+.ch{
+    font-size:1rem ;
+    margin-top:1.4rem;
+    padding-right:0.6rem;
+}
+.forg:hover{
+    color:green;
+}
+.forg{
+    float:right;
+    text-decoration: none;
+    color:rgb(29, 43, 27);
+    border-bottom:2px dotted rgb(221, 146, 123);
+    margin-top: 1rem;
+}
+.img{
+    display: none;
+}
+@media screen and (min-width:800px) {
+    .img{
+        display: inline;
+        position:absolute;
+    width:400px;
+    opacity: 0.8;
+    top:2rem;
+    z-index:10;
+    margin:5rem 53% ;
+    float:right;
+}
+    }

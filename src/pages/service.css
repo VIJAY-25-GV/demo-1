@@ -1,0 +1,198 @@
+.card-wrap{
+    display:flex;
+}
+.card{
+    box-shadow: 5px 5px 10px rgb(214, 192, 181);
+    margin-top:2rem;
+    margin-left:2rem;
+    margin-bottom: 0.9rem;
+    width: calc(100%/3);
+}
+.card-title{
+    font-family:serif;
+    font-weight:800;
+    font-size:1.8rem;
+    margin:0 2rem;
+}
+.card-text{
+    color:rgb(131, 82, 26);
+    font-family:arial;
+    font-weight: 550;
+    font-size:0.9rem;
+    margin:0 2rem;
+}
+.img-wrap{
+    width:100%;
+    height:300px;
+
+    /* margin: 0 auto; */
+}
+.img-wrap img{
+    max-width:100%;
+    max-height:100%;
+}
+.card-body a{
+    text-decoration: none;
+    background-color: rgb(41, 36, 31);
+    border-radius:20px;
+    color:white;
+    font-size:0.8rem;
+    font-family:'Montserrat Alternates';
+    font-weight:800;
+    padding: 2px 0.7rem;
+    margin:0 2rem;
+}
+.card-body a:hover{
+    background-color: var(--box);
+}
+.card-body i{
+    cursor:pointer;
+    position:absolute;
+    bottom:34%;
+    right:1rem;
+    color:thistle;
+}
+.card-body i:hover{
+    color: tomato;
+}
+.carousel-control-pre{
+    position: absolute;
+    border-radius: 50%;
+    border:none;
+    margin-top:1rem;
+    padding:6px;
+    background-color: rgb(175, 171, 175);
+    left: 45%;
+}
+.carousel-control-nex{
+    position: absolute;
+    border-radius: 50%;
+    margin-top:1rem;
+    border:none;
+    padding:6px;
+    background-color: rgb(175, 171, 175);
+    right: 45%;
+}
+.carousel-control-pre:hover, .carousel-control-nex:hover{
+    background-color: rgb(56, 55, 56);
+}
+.serleaf-l{
+    position:absolute;
+    top:6rem;
+    left:2rem;
+}
+.serleaf-r{
+    position:absolute;
+    top:6rem;
+    right:2rem;
+}
+.serleaf-ri{
+    position:absolute;
+    bottom:0rem;
+    left:6.9rem;
+}
+.serleaf-le{
+    position:absolute;
+    bottom:-.3rem;
+    right:6rem;
+}
+@media screen and (max-width:800px) {
+    .card-wrap{
+        display:flex;
+    }
+    .card{
+        margin-top:8rem;
+        margin-left:0.6rem;
+        width:130px;
+    }
+    .card-title{
+        font-family:serif;
+        font-weight:800;
+        font-size:0.8rem;
+        margin:0;
+        padding:0;
+    }
+    .card-text{
+        color:rgb(131, 82, 26);
+        font-family:arial;
+        font-weight: 550;
+        font-size:0.5rem;
+        margin:0 0;
+    }
+    .img-wrap{
+        width:100%;
+        height:110px;
+        margin:0;
+        padding:0;
+    }
+    .img-wrap img{
+        max-width:100%;
+        max-height:100%;
+    }
+    .card-body a{
+        text-decoration: none;
+        background-color: rgb(41, 36, 31);
+        border-radius:20px;
+        color:white;
+        font-size:0.5rem;
+        font-family:'Montserrat Alternates';
+        font-weight:600;
+        padding: 2px 0.2rem;
+        margin:0 ;
+    }
+    .card-body a:hover{
+        background-color: var(--box);
+    }
+    .card-body i{
+        cursor:pointer;
+        position:absolute;
+        bottom:32%;
+        right:0.5rem;
+        color:thistle;
+    }
+    .card-body i:hover{
+        color: tomato;
+    }
+    .carousel-control-pre{
+        position: absolute;
+        border-radius: 80%;
+        border:none;
+        margin-top:2rem;
+        padding:2px 2px 0 0 ;
+        background-color: rgb(175, 171, 175);
+        left: 39%;
+    }
+    .carousel-control-nex{
+        position: absolute;
+        border-radius: 50%;
+        margin-top:2rem;
+        border:none;
+        padding:2px 2px 0 2px ;
+        background-color: rgb(175, 171, 175);
+        right: 39%;
+    }
+    .carousel-control-pre:hover, .carousel-control-nex:hover{
+        background-color: rgb(56, 55, 56);
+    }
+  
+    .serleaf-l{
+        position:absolute;
+        top:9rem;
+        left:2rem;
+    }
+    .serleaf-r{
+        position:absolute;
+        top:9rem;
+        right:2rem;
+    }
+    .serleaf-ri{
+        position:absolute;
+        bottom:3rem;
+        left:3rem;
+    }
+    .serleaf-le{
+        position:absolute;
+        bottom:3rem;
+        right:3rem;
+    }
+}
