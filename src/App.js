@@ -12,29 +12,27 @@ function App() {
     <BrowserRouter>
     <nav className="  navbar-expand-lg">
     <Link  to="/home"><img src='./img/logo.png' className='head-img'/></Link>
-    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+    <button onClick={toggle} className="navbar-btn">
     <i class="fa-solid fa-bars"></i>
     </button>
-    <div className="collapse navbar-collapse" id="collapsibleNavbar">
       <ul >
         <li >
-          <Link  to="/" >home</Link>
+          <Link  to="/"  onClick={toggle} >home</Link>
         </li>
         <li >
-          <Link  to="/service" >service</Link>
+          <Link  to="/service" onClick={toggle} >service</Link>
         </li>
         <li>
-          <Link to="/about" >about</Link>
+          <Link to="/about"  onClick={toggle} >about</Link>
         </li>
         <li>
-          <Link to="/contact" >contact</Link>
+          <Link to="/contact"  onClick={toggle} >contact</Link>
         </li>
         <li>
-          <Link to="/sign" className='sign'>sign in</Link>
+          <Link to="/sign" className='sign' onClick={toggle} >sign in</Link>
         </li>
         <img src='./img/leaf2.png' className='navimg'/>
         </ul>
-        </div>
         <div className='head-icon'>
         <i class="fa-regular fa-user"></i>
         <i class="fa-sharp fa-solid fa-bag-shopping"></i>
@@ -50,7 +48,17 @@ function App() {
   )
 }
 
+function toggle(){
+return(document.querySelector("ul").classList.toggle('slide'));
+
+}
+
+
 export default App;
+
+
+
+
 
 
 
