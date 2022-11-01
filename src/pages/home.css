@@ -83,8 +83,8 @@
 }
 .leaf2{
     position: absolute;
-    bottom:0rem;
-    right:0;
+    bottom:-2rem;
+    right:-5rem;
     z-index: 100;
 } 
 @media screen and (max-width:1230px) {
@@ -192,7 +192,7 @@
     }    
     
     .homefooter p{
-        color:rgb(141, 33, 33);
+        color:white;
         font-family:serif;
         font-size:1.4rem;
         text-align: center;
