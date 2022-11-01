@@ -10,7 +10,7 @@ import { Route, Link, BrowserRouter } from 'react-router-dom';
 function App() {
   return (
     <BrowserRouter>
-    <nav className="  navbar-expand-lg">
+    <nav>
     <Link  to="/home"><img src='./img/logo.png' className='head-img'/></Link>
     <button onClick={toggle} className="navbar-btn">
     <i class="fa-solid fa-bars"></i>
