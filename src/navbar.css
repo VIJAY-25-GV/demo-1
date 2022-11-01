@@ -19,9 +19,9 @@ nav{
     width:130px;
 }
 nav ul{
-    position:absolute;
-    top:0.9rem;
-    left:29%;
+   float: right;
+   margin-right:29%;
+   padding-top:0.6rem;
 }
 nav li{
     display: inline;
@@ -48,9 +48,10 @@ nav li a{
         position:absolute;
         top:3rem;
         left:-100%;
-        transition: 2s;
+        transition:2s;
     }
     nav ul.slide{
+        top:3rem;
         left:0rem;
         transition: 2s;
     }
@@ -115,3 +116,4 @@ nav li a:hover{
     padding-left:1rem;
     font-size:1.1rem;
 }
+
